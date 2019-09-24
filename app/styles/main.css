@@ -1,0 +1,32 @@
+body {
+	background-color: #FFFFFF;
+	background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment:fixed;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 40%;
+  text-align: center;
+}
+
+/* Supporting marketing content */
+.marketing {
+  text-align: center;
+  margin: 40px;
+}
+
+ /* Space out the masthead */
+.header {
+    margin-bottom: 50px;
+}
+
+.image {
+  width: 80%;
+}
+
+.swal2-container {
+  zoom: 1.5;
+}

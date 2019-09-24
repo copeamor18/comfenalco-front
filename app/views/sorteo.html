@@ -1,0 +1,39 @@
+<div>    
+    <form ng-submit="vm.sorteoPremio()"> 
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sorteo</button>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div>
+                <div class="table-responsive col-xs-12">
+                    <table class="table table-bordered table-striped">
+                        <colgroup>
+                            <col span="1" />
+                            <col span="1" />
+                            <col span="1" />
+                        </colgroup>
+                        
+                        <thead>
+                            <tr class="info">
+                                <th>Numero identidad</th>
+                                <th>nombre persona</th>
+                                <th>premio</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr ng-repeat="datelleSorteoDTO in vm.datelleSorteoDTO">
+                                <td>{{datelleSorteoDTO.persona.numeroDocumento}}</td>
+                                <td>{{datelleSorteoDTO.persona.nombres}} {{datelleSorteoDTO.persona.apellidos}}</td>
+                                <td>{{datelleSorteoDTO.premio.descripcion}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

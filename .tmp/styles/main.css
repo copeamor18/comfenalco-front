@@ -1,0 +1,33 @@
+body {
+	background-color: #FFFFFF;
+	background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment:fixed;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 40%;
+  text-align: center;
+}
+
+/* Supporting marketing content */
+.marketing {
+  text-align: center;
+  margin: 40px;
+}
+
+ /* Space out the masthead */
+.header {
+    margin-bottom: 50px;
+}
+
+.image {
+  width: 80%;
+}
+
+.swal2-container {
+  zoom: 1.5;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0NBQ0MsMEJBQTBCO0NBQzFCLDBCQUEwQjtFQUN6Qiw2QkFBNkI7RUFDN0Isc0JBQXNCO0VBQ3RCLDRCQUE0QjtDQUM3Qjs7QUFFRCx3QkFBd0I7QUFDeEI7RUFDRSxpQkFBaUI7RUFDakIsbUJBQW1CO0NBQ3BCOztBQUVELGtDQUFrQztBQUNsQztFQUNFLG1CQUFtQjtFQUNuQixhQUFhO0NBQ2Q7O0NBRUEsNEJBQTRCO0FBQzdCO0lBQ0ksb0JBQW9CO0NBQ3ZCOztBQUVEO0VBQ0UsV0FBVztDQUNaOztBQUVEO0VBQ0UsVUFBVTtDQUNYIiwiZmlsZSI6Im1haW4uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG5cdGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkY7XG5cdGJhY2tncm91bmQtcG9zaXRpb246IGxlZnQ7XG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gIGJhY2tncm91bmQtc2l6ZTogMTAwJTtcbiAgYmFja2dyb3VuZC1hdHRhY2htZW50OmZpeGVkO1xufVxuXG4vKiBDdXN0b20gcGFnZSBmb290ZXIgKi9cbi5mb290ZXIge1xuICBwYWRkaW5nLXRvcDogNDAlO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi8qIFN1cHBvcnRpbmcgbWFya2V0aW5nIGNvbnRlbnQgKi9cbi5tYXJrZXRpbmcge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIG1hcmdpbjogNDBweDtcbn1cblxuIC8qIFNwYWNlIG91dCB0aGUgbWFzdGhlYWQgKi9cbi5oZWFkZXIge1xuICAgIG1hcmdpbi1ib3R0b206IDUwcHg7XG59XG5cbi5pbWFnZSB7XG4gIHdpZHRoOiA4MCU7XG59XG5cbi5zd2FsMi1jb250YWluZXIge1xuICB6b29tOiAxLjU7XG59Il19 */
